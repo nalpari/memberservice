@@ -1,0 +1,12 @@
+POST http://localhost:32790/api/member/regist
+Content-Type: application/x-www-form-urlencoded
+
+userId=nalpari&userPw=dayfly10&userName=유상욱&age=42&address=신림동
+
+###
+POST http://localhost:32790/api/member/login
+Content-Type: application/x-www-form-urlencoded
+
+userId=nalpari&userPw=dayfly10
+
+###
